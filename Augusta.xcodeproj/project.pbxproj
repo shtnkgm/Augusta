@@ -9,21 +9,53 @@
 /* Begin PBXBuildFile section */
 		DAACB5A826FB23A000653153 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAACB5A726FB23A000653153 /* AppDelegate.swift */; };
 		DAACB5AA26FB23A000653153 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAACB5A926FB23A000653153 /* SceneDelegate.swift */; };
-		DAACB5AC26FB23A000653153 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAACB5AB26FB23A000653153 /* ViewController.swift */; };
-		DAACB5AF26FB23A000653153 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DAACB5AD26FB23A000653153 /* Main.storyboard */; };
 		DAACB5B126FB23A300653153 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DAACB5B026FB23A300653153 /* Assets.xcassets */; };
 		DAACB5B426FB23A300653153 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DAACB5B226FB23A300653153 /* LaunchScreen.storyboard */; };
+		DAACB5BC26FB245B00653153 /* JsonPlaceholderUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAACB5BB26FB245B00653153 /* JsonPlaceholderUseCase.swift */; };
+		DAACB5BE26FB24C800653153 /* PostsRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAACB5BD26FB24C800653153 /* PostsRepository.swift */; };
+		DAACB5C026FB254C00653153 /* PostsEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAACB5BF26FB254C00653153 /* PostsEntity.swift */; };
+		DAACB5C226FB2A5A00653153 /* CommentsRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAACB5C126FB2A5A00653153 /* CommentsRepository.swift */; };
+		DAACB5C426FB2A7000653153 /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAACB5C326FB2A7000653153 /* APIClient.swift */; };
+		DAACB5C826FB2EDE00653153 /* CommentsEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAACB5C726FB2EDE00653153 /* CommentsEntity.swift */; };
+		DAACB5CA26FB32B700653153 /* SwiftUIViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAACB5C926FB32B700653153 /* SwiftUIViewCell.swift */; };
+		DAACB5CC26FB32D300653153 /* SwiftUIEmbeddable.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAACB5CB26FB32D300653153 /* SwiftUIEmbeddable.swift */; };
+		DAACB5CE26FB32E600653153 /* SwiftUIReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAACB5CD26FB32E600653153 /* SwiftUIReusableView.swift */; };
+		DAACB5D026FB335800653153 /* SectionHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAACB5CF26FB335800653153 /* SectionHeaderView.swift */; };
+		DAACB5D226FB337500653153 /*  LabelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAACB5D126FB337500653153 /*  LabelView.swift */; };
+		DAACB5D426FB33AB00653153 /* UICollectionView+.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAACB5D326FB33AB00653153 /* UICollectionView+.swift */; };
+		DAACB5D626FB33CA00653153 /* UIView+.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAACB5D526FB33CA00653153 /* UIView+.swift */; };
+		DAACB5D826FB340600653153 /* HomeSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAACB5D726FB340600653153 /* HomeSection.swift */; };
+		DAACB5DA26FB342100653153 /* HomeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAACB5D926FB342100653153 /* HomeCell.swift */; };
+		DAACB5DE26FB38B900653153 /* NSObject+.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAACB5DD26FB38B900653153 /* NSObject+.swift */; };
+		DAACB5E126FB3B0F00653153 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAACB5DF26FB3B0F00653153 /* HomeViewController.swift */; };
+		DAACB5E226FB3B0F00653153 /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DAACB5E026FB3B0F00653153 /* HomeViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		DAACB5A426FB23A000653153 /* Augusta.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Augusta.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DAACB5A726FB23A000653153 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DAACB5A926FB23A000653153 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		DAACB5AB26FB23A000653153 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		DAACB5AE26FB23A000653153 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DAACB5B026FB23A300653153 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DAACB5B326FB23A300653153 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DAACB5B526FB23A300653153 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DAACB5BB26FB245B00653153 /* JsonPlaceholderUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JsonPlaceholderUseCase.swift; sourceTree = "<group>"; };
+		DAACB5BD26FB24C800653153 /* PostsRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostsRepository.swift; sourceTree = "<group>"; };
+		DAACB5BF26FB254C00653153 /* PostsEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostsEntity.swift; sourceTree = "<group>"; };
+		DAACB5C126FB2A5A00653153 /* CommentsRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentsRepository.swift; sourceTree = "<group>"; };
+		DAACB5C326FB2A7000653153 /* APIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIClient.swift; sourceTree = "<group>"; };
+		DAACB5C726FB2EDE00653153 /* CommentsEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentsEntity.swift; sourceTree = "<group>"; };
+		DAACB5C926FB32B700653153 /* SwiftUIViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIViewCell.swift; sourceTree = "<group>"; };
+		DAACB5CB26FB32D300653153 /* SwiftUIEmbeddable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIEmbeddable.swift; sourceTree = "<group>"; };
+		DAACB5CD26FB32E600653153 /* SwiftUIReusableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIReusableView.swift; sourceTree = "<group>"; };
+		DAACB5CF26FB335800653153 /* SectionHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionHeaderView.swift; sourceTree = "<group>"; };
+		DAACB5D126FB337500653153 /*  LabelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = " LabelView.swift"; sourceTree = "<group>"; };
+		DAACB5D326FB33AB00653153 /* UICollectionView+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UICollectionView+.swift"; sourceTree = "<group>"; };
+		DAACB5D526FB33CA00653153 /* UIView+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+.swift"; sourceTree = "<group>"; };
+		DAACB5D726FB340600653153 /* HomeSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeSection.swift; sourceTree = "<group>"; };
+		DAACB5D926FB342100653153 /* HomeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCell.swift; sourceTree = "<group>"; };
+		DAACB5DD26FB38B900653153 /* NSObject+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSObject+.swift"; sourceTree = "<group>"; };
+		DAACB5DF26FB3B0F00653153 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		DAACB5E026FB3B0F00653153 /* HomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,8 +90,24 @@
 			children = (
 				DAACB5A726FB23A000653153 /* AppDelegate.swift */,
 				DAACB5A926FB23A000653153 /* SceneDelegate.swift */,
-				DAACB5AB26FB23A000653153 /* ViewController.swift */,
-				DAACB5AD26FB23A000653153 /* Main.storyboard */,
+				DAACB5DF26FB3B0F00653153 /* HomeViewController.swift */,
+				DAACB5E026FB3B0F00653153 /* HomeViewController.xib */,
+				DAACB5D726FB340600653153 /* HomeSection.swift */,
+				DAACB5D926FB342100653153 /* HomeCell.swift */,
+				DAACB5CF26FB335800653153 /* SectionHeaderView.swift */,
+				DAACB5D126FB337500653153 /*  LabelView.swift */,
+				DAACB5C926FB32B700653153 /* SwiftUIViewCell.swift */,
+				DAACB5CD26FB32E600653153 /* SwiftUIReusableView.swift */,
+				DAACB5CB26FB32D300653153 /* SwiftUIEmbeddable.swift */,
+				DAACB5D326FB33AB00653153 /* UICollectionView+.swift */,
+				DAACB5D526FB33CA00653153 /* UIView+.swift */,
+				DAACB5DD26FB38B900653153 /* NSObject+.swift */,
+				DAACB5BB26FB245B00653153 /* JsonPlaceholderUseCase.swift */,
+				DAACB5BD26FB24C800653153 /* PostsRepository.swift */,
+				DAACB5BF26FB254C00653153 /* PostsEntity.swift */,
+				DAACB5C126FB2A5A00653153 /* CommentsRepository.swift */,
+				DAACB5C726FB2EDE00653153 /* CommentsEntity.swift */,
+				DAACB5C326FB2A7000653153 /* APIClient.swift */,
 				DAACB5B026FB23A300653153 /* Assets.xcassets */,
 				DAACB5B226FB23A300653153 /* LaunchScreen.storyboard */,
 				DAACB5B526FB23A300653153 /* Info.plist */,
@@ -127,7 +175,7 @@
 			files = (
 				DAACB5B426FB23A300653153 /* LaunchScreen.storyboard in Resources */,
 				DAACB5B126FB23A300653153 /* Assets.xcassets in Resources */,
-				DAACB5AF26FB23A000653153 /* Main.storyboard in Resources */,
+				DAACB5E226FB3B0F00653153 /* HomeViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,8 +186,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DAACB5AC26FB23A000653153 /* ViewController.swift in Sources */,
+				DAACB5D226FB337500653153 /*  LabelView.swift in Sources */,
+				DAACB5C826FB2EDE00653153 /* CommentsEntity.swift in Sources */,
+				DAACB5D826FB340600653153 /* HomeSection.swift in Sources */,
+				DAACB5BE26FB24C800653153 /* PostsRepository.swift in Sources */,
+				DAACB5D026FB335800653153 /* SectionHeaderView.swift in Sources */,
+				DAACB5D426FB33AB00653153 /* UICollectionView+.swift in Sources */,
+				DAACB5CC26FB32D300653153 /* SwiftUIEmbeddable.swift in Sources */,
+				DAACB5BC26FB245B00653153 /* JsonPlaceholderUseCase.swift in Sources */,
+				DAACB5CE26FB32E600653153 /* SwiftUIReusableView.swift in Sources */,
+				DAACB5CA26FB32B700653153 /* SwiftUIViewCell.swift in Sources */,
+				DAACB5C426FB2A7000653153 /* APIClient.swift in Sources */,
+				DAACB5C226FB2A5A00653153 /* CommentsRepository.swift in Sources */,
+				DAACB5DE26FB38B900653153 /* NSObject+.swift in Sources */,
+				DAACB5D626FB33CA00653153 /* UIView+.swift in Sources */,
+				DAACB5E126FB3B0F00653153 /* HomeViewController.swift in Sources */,
 				DAACB5A826FB23A000653153 /* AppDelegate.swift in Sources */,
+				DAACB5C026FB254C00653153 /* PostsEntity.swift in Sources */,
+				DAACB5DA26FB342100653153 /* HomeCell.swift in Sources */,
 				DAACB5AA26FB23A000653153 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -147,14 +211,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		DAACB5AD26FB23A000653153 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				DAACB5AE26FB23A000653153 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		DAACB5B226FB23A300653153 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -294,7 +350,6 @@
 				INFOPLIST_FILE = Augusta/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -322,7 +377,6 @@
 				INFOPLIST_FILE = Augusta/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
